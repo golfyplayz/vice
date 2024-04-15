@@ -68,6 +68,15 @@
                         "RDFSH/a4000/s210/iaf GEYGR/a4000 SYYKO/a3000 TRANN/a3000 DENTO/a2000/if REDOC/a1500"
                     ]
                 }
+            },
+            "departure_routes": {
+                "15R": {
+                    "CRIED": {
+                        "cleared_altitude": 16000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-33L/h149 DREMR LITLD BLTWY CRIED"
+                    }
+                }
             }
         }
     },
