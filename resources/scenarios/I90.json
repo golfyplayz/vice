@@ -75,7 +75,42 @@
                         "cleared_altitude": 16000,
                         "sid": "BLTWY7",
                         "waypoints": "KIAH-33L/h149 DREMR LITLD BLTWY CRIED"
-                    }
+                    },
+                    "PUFER": {
+                        "cleared_altitude": 16000,
+                        "sid": "BNDTO5",
+                        "waypoints": "SCAMM/a5000- SHAAK BNDTO CUZZZ/a13000+ ZUUUU PUFER"
+                    },
+                    "MNURE": {
+                        "cleared_altitude": 16000,
+                        "sid": "BNDTO5",
+                        "waypoints": "SCAMM/a5000- SHAAK BNDTO FFOAM/a13000+ BOCCK MNURE"
+                    },
+                    "WAILN": {
+                        "cleared_altitude": 16000,
+                        "sid": "BNDTO5",
+                        "waypoints": "SCAMM/a5000- SHAAK BNDTO BAAKE/a13000+ WEEED WAILN"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 16000,
+                        "sid": "FLYZA5",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 16000,
+                        "sid": "GUMBY3",
+                        "waypoints": "CRTMN/s230 DWSUN/a4000- GUMBY/a5000- HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 16000,
+                        "sid": "GUMBY3",
+                        "waypoints": "CRTMN/s230 DWSUN/a4000- GUMBY/a5000- JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 16000,
+                        "sid": "GUMBY3",
+                        "waypoints": "CRTMN/s230 DWSUN/a4000- GUMBY/a5000- YOKEM"
+                    },
                 }
             }
         }
