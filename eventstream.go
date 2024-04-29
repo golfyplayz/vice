@@ -44,6 +44,10 @@ func (e *EventsSubscription) LogValue() slog.Value {
 		slog.String("source", e.source))
 }
 
+func (e *EventsSubscription) PostEvent(event Event) {
+	e.stream.Post(event)
+}
+
 func NewEventStream() *EventStream {
 	return &EventStream{subscriptions: make(map[*EventsSubscription]interface{})}
 }
@@ -187,20 +191,22 @@ const (
 	RadioTransmissionEvent
 	StatusMessageEvent
 	ServerBroadcastMessageEvent
+	GlobalMessageEvent
 	AcknowledgedPointOutEvent
 	RejectedPointOutEvent
 	IdentEvent
 	HandoffControllEvent
 	SetGlobalLeaderLineEvent
+	TrackClickedEvent
 	NumEventTypes
 )
 
 func (t EventType) String() string {
 	return []string{"InitiatedTrack", "DroppedTrack", "PushedFlightStrip", "PointOut",
 		"OfferedHandoff", "AcceptedHandoff", "CanceledHandoff", "RejectedHandoff",
-		"RadioTransmission", "StatusMessage", "ServerBroadcastMessage",
+		"RadioTransmission", "StatusMessage", "ServerBroadcastMessage", "GlobalMessage",
 		"AcknowledgedPointOut", "RejectedPointOut", "Ident", "HandoffControll",
-		"SetGlobalLeaderLine"}[t]
+		"SetGlobalLeaderLine", "TrackClicked"}[t]
 }
 
 type Event struct {
@@ -214,10 +220,13 @@ type Event struct {
 }
 
 func (e *Event) String() string {
-	if e.Type == RadioTransmissionEvent {
+	switch e.Type {
+	case RadioTransmissionEvent:
 		return fmt.Sprintf("%s: callsign %s controller %s->%s message %s type %v",
 			e.Type, e.Callsign, e.FromController, e.ToController, e.Message, e.RadioTransmissionType)
-	} else {
+	case TrackClickedEvent:
+		return fmt.Sprintf("%s: %s", e.Type, e.Callsign)
+	default:
 		return fmt.Sprintf("%s: callsign %s controller %s->%s message %s",
 			e.Type, e.Callsign, e.FromController, e.ToController, e.Message)
 	}

@@ -1030,11 +1030,10 @@ func (d *NewCommandSyntaxModalClient) Draw() int {
 	spc.Y -= 4
 	imgui.PushStyleVarVec2(imgui.StyleVarItemSpacing, spc)
 
-	imgui.Text(`Aircraft control commands (e.g., "C30" for "climb and maintain`)
-	imgui.Text(`3000") now must begin with a comma: ,`)
-	imgui.Text(``)
-	imgui.Text(`This is necessary to distinguish between control commands, handoffs`)
-	imgui.Text(`to other controllers, and setting a track's scratchpad.`)
+	imgui.Text(`Aircraft control commands are now entered in the messages window`)
+	imgui.Text(`at the bottom of the screen. You can either click on that window`)
+	imgui.Text(`and the STARS window to set where keyboard input should go, or`)
+	imgui.Text(`pressing the TAB key switches between them.`)
 
 	imgui.PopStyleVar()
 
@@ -1085,11 +1084,12 @@ func showAboutDialog() {
   Michael Trokel, Samuel Valencia, and
   Yi Zhang.
 - Facility engineering: Connor Allen, Adam
-  Bolek, Aaron Flett, Mike K, Jud Lopez,
-  Ethan Malimon, Jace Martin, Merry,
-  Yahya Nazimuddin, Justin Nguyen, Arya T,
-  Nelson T, Eli Thompson, Michael Trokel,
-  Samuel Valencia, and Jackson Verdoorn.
+  Bolek, Lucas Chan, Aaron Flett, Mike K,
+  Jud Lopez,   Ethan Malimon, Jace Martin,
+  Merry, Yahya Nazimuddin, Justin Nguyen,
+  Arya T, Nelson T, Eli Thompson, Michael
+  Trokel, Samuel Valencia, Gavin Velicevic,
+  and Jackson Verdoorn.
 - Video maps: thanks to the ZAU, ZBW, ZDC,
   ZDV, ZHU, ZID, ZJX, ZLA, ZMP, ZNY, ZOB,
   ZSE, and ZTL VATSIM ARTCCs.
@@ -1915,6 +1915,7 @@ altitude. (*TS* = 'then speed')`, "*TS210*"},
 	[3]string{"*E_appr", `"Expect the _appr_ approach."`, "*EI2L*"},
 	[3]string{"*C_appr", `"Cleared _appr_ approach."`, "*CI2L*"},
 	[3]string{"*TO*", `"Contact tower"`, "*TO*"},
+	[3]string{"*FC*", `"Contact _ctrl_ on _freq_, where _ctrl_ is the controller who has the track and _freq_ is their frequency."`, "*FC*"},
 	[3]string{"*X*", "(Deletes the aircraft.)", "*X*"},
 }
 

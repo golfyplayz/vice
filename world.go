@@ -222,6 +222,14 @@ func (w *World) LaunchAircraft(ac Aircraft) {
 		})
 }
 
+func (w *World) SendGlobalMessage(global GlobalMessage) {
+	w.pendingCalls = append(w.pendingCalls,
+		&PendingCall{
+			Call:      w.simProxy.GlobalMessage(global),
+			IssueTime: time.Now(),
+		})
+}
+
 func (w *World) SetScratchpad(callsign string, scratchpad string, success func(any), err func(error)) {
 	if ac := w.Aircraft[callsign]; ac != nil && ac.TrackingController == w.Callsign {
 		ac.Scratchpad = scratchpad
@@ -317,16 +325,6 @@ func (w *World) HandoffTrack(callsign string, controller string, success func(an
 	w.pendingCalls = append(w.pendingCalls,
 		&PendingCall{
 			Call:      w.simProxy.HandoffTrack(callsign, controller),
-			IssueTime: time.Now(),
-			OnSuccess: success,
-			OnErr:     err,
-		})
-}
-
-func (w *World) HandoffControl(callsign string, success func(any), err func(error)) {
-	w.pendingCalls = append(w.pendingCalls,
-		&PendingCall{
-			Call:      w.simProxy.HandoffControl(callsign),
 			IssueTime: time.Now(),
 			OnSuccess: success,
 			OnErr:     err,
@@ -461,21 +459,22 @@ func (w *World) Disconnect() {
 
 // Bool is if the callsign can be abbreviated
 func (w *World) GetAircraft(callsign string, abbreviated bool) *Aircraft { // If the callsign can be abbreivated (for radio commands, not STARS commands)
-	if abbreviated {
-		ac := w.GetAllAircraft()
-		aircraft := findAircraft(callsign, ac)
-		return aircraft
-	}
 	if ac, ok := w.Aircraft[callsign]; ok {
 		return ac
 	}
+	if abbreviated {
+		ac := w.GetAllAircraft()
+		aircraft := w.findAircraft(callsign, ac)
+		return aircraft
+	}
+
 	return nil
 }
 
-func findAircraft(sample string, aircraft []*Aircraft) *Aircraft {
+func (w *World) findAircraft(sample string, aircraft []*Aircraft) *Aircraft {
 	var final []*Aircraft
 	for _, icao := range aircraft {
-		if strings.Contains(icao.Callsign, sample) {
+		if icao.ControllingController == w.Callsign && strings.Contains(icao.Callsign, sample) {
 			final = append(final, icao)
 		}
 	}
@@ -687,12 +686,18 @@ func (w *World) DeleteAircraft(ac *Aircraft, onErr func(err error)) {
 	}
 }
 
-func (w *World) RunAircraftCommands(ac *Aircraft, cmds string, onErr func(err error)) {
+func (w *World) RunAircraftCommands(callsign string, cmds string, handleResult func(message string, remainingInput string)) {
+	var result AircraftCommandsResult
 	w.pendingCalls = append(w.pendingCalls,
 		&PendingCall{
-			Call:      w.simProxy.RunAircraftCommands(ac.Callsign, cmds),
+			Call:      w.simProxy.RunAircraftCommands(callsign, cmds, &result),
 			IssueTime: time.Now(),
-			OnErr:     onErr,
+			OnSuccess: func(any) {
+				handleResult(result.ErrorMessage, result.RemainingInput)
+			},
+			OnErr: func(err error) {
+				lg.Errorf("%s: %v", callsign, err)
+			},
 		})
 }
 

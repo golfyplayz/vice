@@ -1276,6 +1276,11 @@ func (s *Sim) PostEvent(e Event) {
 	s.eventStream.Post(e)
 }
 
+type GlobalMessage struct {
+	Message        string
+	FromController string
+}
+
 type SimWorldUpdate struct {
 	Aircraft    map[string]*Aircraft
 	Controllers map[string]*Controller
@@ -1371,10 +1376,6 @@ func (s *Sim) Activate(lg *Logger) {
 			s.lastDeparture[ap][rwy] = make(map[string]*Departure)
 		}
 	}
-}
-
-func (s *Sim) SetSTARSInput(input string) {
-	s.STARSInputOverride = input
 }
 
 ///////////////////////////////////////////////////////////////////////////
@@ -1956,6 +1957,19 @@ func (s *Sim) dispatchTrackingCommand(token string, callsign string,
 		cmd)
 }
 
+func (s *Sim) GlobalMessage(global GlobalMessageArgs) error {
+	s.mu.Lock(s.lg)
+	defer s.mu.Unlock(s.lg)
+
+	s.eventStream.Post(Event{
+		Type:           GlobalMessageEvent,
+		Message:        global.Message,
+		FromController: global.FromController,
+	})
+
+	return nil
+}
+
 func (s *Sim) SetScratchpad(token, callsign, scratchpad string) error {
 	s.mu.Lock(s.lg)
 	defer s.mu.Unlock(s.lg)
@@ -2084,8 +2098,11 @@ func (s *Sim) HandoffTrack(token, callsign, controller string) error {
 			if ac.TrackingController != ctrl.Callsign {
 				return ErrOtherControllerHasTrack
 			}
-			if s.World.GetControllerByCallsign(controller) == nil {
+			if octrl := s.World.GetControllerByCallsign(controller); octrl == nil {
 				return ErrNoController
+			} else if octrl.Callsign == ctrl.Callsign {
+				// Can't handoff to ourself
+				return ErrInvalidController
 			}
 			return nil
 		},
@@ -2218,8 +2235,11 @@ func (s *Sim) CancelHandoff(token, callsign string) error {
 func (s *Sim) RedirectHandoff(token, callsign, controller string) error {
 	return s.dispatchCommand(token, callsign,
 		func(ctrl *Controller, ac *Aircraft) error {
-			if s.World.GetControllerByCallsign(controller) == nil {
+			if octrl := s.World.GetControllerByCallsign(controller); octrl == nil {
 				return ErrNoController
+			} else if octrl.Callsign == ctrl.Callsign {
+				// Can't redirect to ourself
+				return ErrInvalidController
 			}
 			return nil
 		},
@@ -2294,9 +2314,11 @@ func (s *Sim) PointOut(token, callsign, controller string) error {
 		func(ctrl *Controller, ac *Aircraft) error {
 			if ac.TrackingController != ctrl.Callsign {
 				return ErrOtherControllerHasTrack
-			}
-			if s.World.GetControllerByCallsign(controller) == nil {
+			} else if octrl := s.World.GetControllerByCallsign(controller); octrl == nil {
 				return ErrNoController
+			} else if octrl.Callsign == ctrl.Callsign {
+				// Can't point out to ourself
+				return ErrInvalidController
 			}
 			return nil
 		},
