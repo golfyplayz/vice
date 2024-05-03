@@ -74,7 +74,7 @@
                     "CRIED": {
                         "cleared_altitude": 4000,
                         "sid": "BLTWY7",
-                        "waypoints": "KIAH-33L/h149 DREMR LITLD BLTWY CRIED"
+                        "waypoints": "KIAH-33L/h129 DREMR LITLD BLTWY CRIED"
                     },
                     "VUH": {
                         "cleared_altitude": 4000,
@@ -99,17 +99,17 @@
                     "HOODO": {
                         "cleared_altitude": 4000,
                         "sid": "HOODO7",
-                        "waypoints": "KIAH-33L/h149 VUH HOODO"
+                        "waypoints": "KIAH-33L/h129 VUH HOODO"
                     },
                     "WWELL": {
                         "cleared_altitude": 4000,
                         "sid": "INDIE8",
-                        "waypoints": "KIAH-33L/h149 RENNK COLET SUSHI WWELL"
+                        "waypoints": "KIAH-33L/h129 RENNK COLET SUSHI WWELL"
                     },
                     "CLAVN": {
                         "cleared_altitude": 4000,
                         "sid": "LURIC8",
-                        "waypoints": "KIAH-33l/h149 KNTKY PEETY DARTR MUSIQ CLAVN"
+                        "waypoints": "KIAH-33l/h129 KNTKY PEETY DARTR MUSIQ CLAVN"
                     },
                     "ZUUUU": {
                         "cleared_altitude": 4000,
@@ -139,22 +139,22 @@
                     "STRYA": {
                         "cleared_altitude": 4000,
                         "sid": "STRYA8",
-                        "waypoints": "KIAH-33l/h149 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                        "waypoints": "KIAH-33l/h129 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
                     },
                     "STYCK": {
                         "cleared_altitude": 4000,
                         "sid": "STYCK8",
-                        "waypoints": "KIAH-33l/h149 BBYSE SPICR WILLIS STYCK"
+                        "waypoints": "KIAH-33l/h129 BBYSE SPICR WILLIS STYCK"
                     },
                     "MAJKK": {
                         "cleared_altitude": 4000,
                         "sid": "WYLSN8",
-                        "waypoints": "KIAH-33l/h149 WYLSN MONNT KLJOY MAJKK"
+                        "waypoints": "KIAH-33l/h129 WYLSN MONNT KLJOY MAJKK"
                     },
                     "GIFFA": {
                         "cleared_altitude": 4000,
                         "sid": "WYLSN8",
-                        "waypoints": "KIAH-33l/h149 WYLSN MONNT BUMCO GIFFA"
+                        "waypoints": "KIAH-33l/h129 WYLSN MONNT BUMCO GIFFA"
                     }
                 },
                 "15L_E": {
@@ -287,17 +287,17 @@
                     },
                     "HOURN": {
                         "cleared_altitude": 4000,
-                        "sid": "GUMBY3",
+                        "sid": "MMUGS4",
                         "waypoints": "TTAPS/a4000- BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
                     },
                     "JAAYE": {
                         "cleared_altitude": 4000,
-                        "sid": "GUMBY3",
+                        "sid": "MMUGS4",
                         "waypoints": "TTAPS/a4000- BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
                     },
                     "YOKEM": {
                         "cleared_altitude": 4000,
-                        "sid": "GUMBY3",
+                        "sid": "MMUGS4",
                         "waypoints": "TTAPS/a4000- BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
                     },
                     "SKUBA": {
@@ -332,9 +332,109 @@
                     }
                 },
                 "15R_W": {
+                    "CRIED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-33L/h129 DREMR LITLD BLTWY CRIED"
+                    },
+                    "ZUUUU": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "SCAMM/a5000- SHAAK BNDTO CUZZZ/a13000+ ZUUUU"
+                    },
+                    "BOCCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "SCAMM/a5000- SHAAK BNDTO FFOAM/a13000+ BOCCK"
+                    },
+                    "WEEED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "SCAMM/a5000- SHAAK BNDTO BAAKE/a13000- WEEED"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 4000,
+                        "sid": "FLYZA5",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOODO": {
+                        "cleared_altitude": 4000,
+                        "sid": "HOODO7",
+                        "waypoints": "KIAH-33L/h129 VUH HOODO"
+                    },
+                    "WWELL": {
+                        "cleared_altitude": 4000,
+                        "sid": "INDIE8",
+                        "waypoints": "KIAH-33L/h129 RENNK COLET SUSHI WWELL"
+                    },
+                    "CLAVN": {
+                        "cleared_altitude": 4000,
+                        "sid": "LURIC8",
+                        "waypoints": "KIAH-33L/h129 KNTKY PEETY DARTR MUSIQ CLAVN"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
+                    },
+                    "SKUBA": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA"
+                    },
+                    "RIIGG": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                    },
+                    "STRYA": {
+                        "cleared_altitude": 4000,
+                        "sid": "STRYA8",
+                        "waypoints": "KIAH-33L/h129 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                    },
+                    "STYCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "STYCK8",
+                        "waypoints": "KIAH-33L/h129 BBYSE SPICR WILLIS STYCK"
+                    },
+                    "MAJKK": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-33L/h129 WYLSN MONNT KLJOY MAJKK"
+                    },
+                    "GIFFA": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-33L/h129 WYLSN MONNT BUMCO GIFFA"
+                    }
+                },
+                "9": {
+
+                },
+                "26R": {
+
+                },
+                "26L": {
+
+                },
+                "27": {
 
                 }
-            }
+            },
+            "exit_categories": [
+
+            ],
+            "tower_list": 1
         }
     },
     "arrival_groups": {
