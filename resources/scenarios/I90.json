@@ -505,6 +505,93 @@
                         "waypoints": "KIAH-27/h087 WYLSN MONNT BUMCO GIFFA"
                     }
                 },
+                "8L": {
+                    "CRIED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-26R/h087 DREMR LITLD BLTWY CRIED"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 4000,
+                        "sid": "FLYZA5",
+                        "waypoints": "KIAH-26R/h087 BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 4000,
+                        "sid": "GUMBY3",
+                        "waypoints": "KIAH-26R/h087 DWSUN/a4000- GUMBY/a5000- HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 4000,
+                        "sid": "GUMBY3",
+                        "waypoints": "KIAH-26R/h087 DWSUN/a4000- GUMBY/a5000- JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 4000,
+                        "sid": "GUMBY3",
+                        "waypoints": "KIAH-26R/h087 DWSUN/a4000- GUMBY/a5000- YOKEM"
+                    },
+                    "HOODO": {
+                        "cleared_altitude": 4000,
+                        "sid": "HOODO7",
+                        "waypoints": "KIAH-26R/h087 VUH HOODO"
+                    },
+                    "WWELL": {
+                        "cleared_altitude": 4000,
+                        "sid": "INDIE8",
+                        "waypoints": "KIAH-26R/h087 RENNK COLET SUSHI WWELL"
+                    },
+                    "CLAVN": {
+                        "cleared_altitude": 4000,
+                        "sid": "LURIC8",
+                        "waypoints": "KIAH-26R/h087 KNTKY PEETY DARTR MUSIQ CLAVN"
+                    },
+                    "ZUUUU": {
+                        "cleared_altitude": 4000,
+                        "sid": "PITZZ4",
+                        "waypoints": "KIAH-26R/h087 RODKL PITZZ/a7000+ CUZZZ/a13000+ ZUUUU"
+                    },
+                    "BOCCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "PITZZ4",
+                        "waypoints": "KIAH-26R/h087 RODKL PITZZ/a7000+ GRZIA/a10000+ CHATI/a13000+ BOCCK"
+                    },
+                    "WEEED": {
+                        "cleared_altitude": 4000,
+                        "sid": "PITZZ4",
+                        "waypoints": "KIAH-26R/h087 RODKL PITZZ/a7000+ MNNKE/a13000- WEEED"
+                    },
+                    "SKUBA": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-26R/h087 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA"
+                    },
+                    "RIIGG": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-26R/h087 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                    },
+                    "STRYA": {
+                        "cleared_altitude": 4000,
+                        "sid": "STRYA8",
+                        "waypoints": "KIAH-26R/h087 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                    },
+                    "STYCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "STYCK8",
+                        "waypoints": "KIAH-26R/h087 BBYSE SPICR WILLIS STYCK"
+                    },
+                    "MAJKK": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-26R/h087 WYLSN MONNT KLJOY MAJKK"
+                    },
+                    "GIFFA": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-26R/h087 WYLSN MONNT BUMCO GIFFA"
+                    }
+                },
                 "26R": {
                     "CRIED": {
                         "cleared_altitude": 4000,
@@ -767,6 +854,130 @@
                     }
                 }
             },
+            "departures": [
+                [
+                    {
+                        "exit": "DOLEY",
+                        "destination": "KDEN",
+                        "altitude": 36000,
+                        "route": "STYCK8 DOLEY FUZ SPS KA39Y ZIGEE NIIXX3",
+                        "airlines": [
+                            {
+                                "icao": "UAL",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "LCH",
+                        "destination": "KCLT",
+                        "altitude": 33000,
+                        "route": "MMUGS4 LCH LSU MERDN JAMMR THRSR BESTT JONZE4",
+                        "airlines": [
+                            {
+                                "icao": "AAL",
+                                "fleet": "a321"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "TPAKK",
+                        "destination": "CYUL",
+                        "altitude": 39000,
+                        "route": "INDIE8 TPAKK LIT ROD CXR JHW ART IMPAC4",
+                        "airlines": [
+                            {
+                                "icao": "ACA",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "RZC",
+                        "destination": "KDFW",
+                        "altitude": 36000,
+                        "route": "RZC HITUG SEEVR4",
+                        "airlines": [
+                            {
+                                "icao": "SKW",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "DOLEY",
+                        "destination": "KDEN",
+                        "altitude": 32000,
+                        "route": "STYCK8 DOLEY FUZ SPS TOTOE HALEN NIIXX3",
+                        "airlines": [
+                            {
+                                "icao": "UAL",
+                                "fleet": "short"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "TPAKK",
+                        "destination": "KORD",
+                        "altitude": 37000,
+                        "route": "INDIE8 TPAKK LIT J180 FTZ TRTLL6",
+                        "airlines": [
+                            {
+                                "icao": "UAL",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "LLA",
+                        "destination": "KFLL",
+                        "altitude": 39000,
+                        "route": "MMUGS4 LLA LEV Y290 OCHHO VNECK TEEKY3",
+                        "airlines": [
+                            {
+                                "icao": "UAL",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "FAH",
+                        "destination": "KORD",
+                        "altitude": 13000,
+                        "route": "FAH KOHLL MADII7",
+                        "airlines": [
+                            {
+                                "icao": "SKW",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "GUSTI",
+                        "destination": "KDCA",
+                        "altitude": 33000,
+                        "route": "MMUGS4 GUSTI AWDAD SJI Q56 CATLN Q56 KIWII WAVES CAPSS3",
+                        "airlines": [
+                            {
+                                "icao": "UAL",
+                                "fleet": "default"
+                            }
+                        ]
+                    },
+                    {
+                        "exit": "DPATY",
+                        "destination": "KBNA",
+                        "altitude": 37000,
+                        "route": "STRYA8 DPATY HRTUN CHSNE2",
+                        "airlines": [
+                            {
+                                "icao": "UAL",
+                                "fleet": "short"
+                            }
+                        ]
+                    }
+                ]
+            ],
             "exit_categories": [
 
             ],
@@ -774,6 +985,22 @@
         }
     },
     "arrival_groups": {
+        "DOOBI2": [
+            {
+                "airlines": {
+                    "KIAH": [
+                        {
+                            "airport": "KORD",
+                            "icao": "UAL"
+                        }
+                    ]
+                },
+                "initial_altitude": 24000,
+                "initial_speed": 320,
+                "star": "DOOBI2",
+                "waypoints": "EGULZ/a24000+ TURNR/a17000-23000/s280/ho DOOBI/a15000-17000/s250 HHART/a10000-13000/s230 BOPPR/a9000+/s210 ODISS/a8000+/s210 BOZZZ/a8000/s210"
+            }
+        ]
     },
     "default_scenario": "",
     "scenarios": {
