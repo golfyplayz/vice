@@ -1314,10 +1314,10 @@
           ],
           "arrivals": {
             "AANDY2": {
-              "KOMA": 4
+              "KOMA": 2
             },
             "LANTK2.DABOY": {
-              "KOMA": 4
+              "KOMA": 1
             },
             "LANTK2.DSM": {
               "KOMA": 4
@@ -1326,10 +1326,10 @@
               "KOMA": 4
             },
             "MARWI4.STJ": {
-              "KOMA": 4
+              "KOMA": 3
             },
             "TIMMO1": {
-              "KOMA": 4
+              "KOMA": 3
             },
             "HOWRY3.ONL": {
               "KOMA": 4
@@ -1360,157 +1360,157 @@
           "departure_runways": [
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "DSM"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "FOD"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "JALAP"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "LMN"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "LNK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "OBH"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "ONL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "PWE"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "ROKKK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "OGECA"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "KIDER"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "STL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "36",
               "category": "EMP"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "DSM"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "FOD"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "JALAP"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "LMN"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "LNK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "OBH"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "ONL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "PWE"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "ROKKK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "OGECA"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "KIDER"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "STL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "32R",
               "category": "EMP"
             }
@@ -1537,10 +1537,10 @@
           ],
           "arrivals": {
             "AANDY2": {
-              "KOMA": 4
+              "KOMA": 2
             },
             "LANTK2.DABOY": {
-              "KOMA": 4
+              "KOMA": 1
             },
             "LANTK2.DSM": {
               "KOMA": 4
@@ -1549,10 +1549,10 @@
               "KOMA": 4
             },
             "MARWI4.STJ": {
-              "KOMA": 4
+              "KOMA": 3
             },
             "TIMMO1": {
-              "KOMA": 4
+              "KOMA": 3
             },
             "HOWRY3.ONL": {
               "KOMA": 4
@@ -1583,157 +1583,157 @@
           "departure_runways": [
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "DSM"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "FOD"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "JALAP"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "LMN"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "LNK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "OBH"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "ONL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "PWE"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "ROKKK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "OGECA"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "KIDER"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "STL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "18",
               "category": "EMP"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "DSM"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "FOD"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "JALAP"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "LMN"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "LNK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "OBH"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "ONL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "PWE"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "ROKKK"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "OGECA"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "KIDER"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "STL"
             },
             {
               "airport": "KOMA",
-              "rate": 2,
+              "rate": 1,
               "runway": "14R",
               "category": "EMP"
             }
