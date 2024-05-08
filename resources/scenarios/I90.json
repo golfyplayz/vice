@@ -52,7 +52,7 @@
                     "tower_controller": "IAH_C_TWR",
                     "type": "ILS",
                     "waypoints": [
-                        "BOZZ/a8000/s210/iaf VANNN/a7000 MKAYE/a7000 GRIEG/a5000/if KERNS/a3000 JEPNI/a2000",
+                        "BOZZZ/a8000/s210/iaf VANNN/a7000 MKAYE/a7000 GRIEG/a5000/if KERNS/a3000 JEPNI/a2000",
                         "GARRR/a7000/iaf VANNN/a7000 MKAYE/a7000 GRIEG/a5000/if KERNS/a3000 JEPNI/a2000",
                         "VANNN/a7000/s210/iaf MKAYE/a7000 GRIEG/a5000/if KERNS/a3000 JEPNI/a2000"
                     ]
@@ -79,7 +79,7 @@
                     "VUH": {
                         "cleared_altitude": 4000,
                         "sid": "FLYZA5",
-                        "waypoints": "TTAPS/a4000- BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
                     },
                     "HOURN": {
                         "cleared_altitude": 4000,
@@ -419,16 +419,352 @@
                     }
                 },
                 "9": {
-
+                    "CRIED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-27/h087 DREMR LITLD BLTWY CRIED"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 4000,
+                        "sid": "FLYZA5",
+                        "waypoints": "KIAH-27/h087 BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 4000,
+                        "sid": "GUMBY3",
+                        "waypoints": "KIAH-27/h087 DWSUN/a4000- GUMBY/a5000- HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 4000,
+                        "sid": "GUMBY3",
+                        "waypoints": "KIAH-27/h087 DWSUN/a4000- GUMBY/a5000- JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 4000,
+                        "sid": "GUMBY3",
+                        "waypoints": "KIAH-27/h087 DWSUN/a4000- GUMBY/a5000- YOKEM"
+                    },
+                    "HOODO": {
+                        "cleared_altitude": 4000,
+                        "sid": "HOODO7",
+                        "waypoints": "KIAH-27/h087 VUH HOODO"
+                    },
+                    "WWELL": {
+                        "cleared_altitude": 4000,
+                        "sid": "INDIE8",
+                        "waypoints": "KIAH-27/h087 RENNK COLET SUSHI WWELL"
+                    },
+                    "CLAVN": {
+                        "cleared_altitude": 4000,
+                        "sid": "LURIC8",
+                        "waypoints": "KIAH-27/h087 KNTKY PEETY DARTR MUSIQ CLAVN"
+                    },
+                    "ZUUUU": {
+                        "cleared_altitude": 4000,
+                        "sid": "PITZZ4",
+                        "waypoints": "KIAH-27/h087 RODKL PITZZ/a7000+ CUZZZ/a13000+ ZUUUU"
+                    },
+                    "BOCCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "PITZZ4",
+                        "waypoints": "KIAH-27/h087 RODKL PITZZ/a7000+ GRZIA/a10000+ CHATI/a13000+ BOCCK"
+                    },
+                    "WEEED": {
+                        "cleared_altitude": 4000,
+                        "sid": "PITZZ4",
+                        "waypoints": "KIAH-27/h087 RODKL PITZZ/a7000+ MNNKE/a13000- WEEED"
+                    },
+                    "SKUBA": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-27/h087 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA"
+                    },
+                    "RIIGG": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-27/h087 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                    },
+                    "STRYA": {
+                        "cleared_altitude": 4000,
+                        "sid": "STRYA8",
+                        "waypoints": "KIAH-27/h087 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                    },
+                    "STYCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "STYCK8",
+                        "waypoints": "KIAH-27/h087 BBYSE SPICR WILLIS STYCK"
+                    },
+                    "MAJKK": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-27/h087 WYLSN MONNT KLJOY MAJKK"
+                    },
+                    "GIFFA": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-27/h087 WYLSN MONNT BUMCO GIFFA"
+                    }
                 },
                 "26R": {
-
+                    "CRIED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-8L/h267 DREMR LITLD BLTWY CRIED"
+                    },
+                    "ZUUUU": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-8L/h267 SHAAK BNDTO CUZZZ/a13000+ ZUUUU"
+                    },
+                    "BOCCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-8L/h267 SHAAK BNDTO FFOAM/a13000+ BOCCK"
+                    },
+                    "WEEED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-8L/h267 SHAAK BNDTO BAAKE/a13000- WEEED"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 4000,
+                        "sid": "FLYZA5",
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOODO": {
+                        "cleared_altitude": 4000,
+                        "sid": "HOODO7",
+                        "waypoints": "KIAH-8L/h267 VUH HOODO"
+                    },
+                    "WWELL": {
+                        "cleared_altitude": 4000,
+                        "sid": "INDIE8",
+                        "waypoints": "KIAH-8L/h267 RENNK COLET SUSHI WWELL"
+                    },
+                    "CLAVN": {
+                        "cleared_altitude": 4000,
+                        "sid": "LURIC8",
+                        "waypoints": "KIAH-8L/h267 KNTKY PEETY DARTR MUSIQ CLAVN"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
+                    },
+                    "SKUBA": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA"
+                    },
+                    "RIIGG": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-8L/h267 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                    },
+                    "STRYA": {
+                        "cleared_altitude": 4000,
+                        "sid": "STRYA8",
+                        "waypoints": "KIAH-8L/h267 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                    },
+                    "STYCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "STYCK8",
+                        "waypoints": "KIAH-8L/h267 BBYSE SPICR WILLIS STYCK"
+                    },
+                    "MAJKK": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-8L/h267 WYLSN MONNT KLJOY MAJKK"
+                    },
+                    "GIFFA": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-8L/h267 WYLSN MONNT BUMCO GIFFA"
+                    }
                 },
                 "26L": {
-
+                    "CRIED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-8R/h267 DREMR LITLD BLTWY CRIED"
+                    },
+                    "ZUUUU": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-8R/h267 SHAAK BNDTO CUZZZ/a13000+ ZUUUU"
+                    },
+                    "BOCCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-8R/h267 SHAAK BNDTO FFOAM/a13000+ BOCCK"
+                    },
+                    "WEEED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-8R/h267 SHAAK BNDTO BAAKE/a13000- WEEED"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 4000,
+                        "sid": "FLYZA5",
+                        "waypoints": "KIAH-8R/h267 BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOODO": {
+                        "cleared_altitude": 4000,
+                        "sid": "HOODO7",
+                        "waypoints": "KIAH-8R/h267 VUH HOODO"
+                    },
+                    "WWELL": {
+                        "cleared_altitude": 4000,
+                        "sid": "INDIE8",
+                        "waypoints": "KIAH-8R/h267 RENNK COLET SUSHI WWELL"
+                    },
+                    "CLAVN": {
+                        "cleared_altitude": 4000,
+                        "sid": "LURIC8",
+                        "waypoints": "KIAH-8R/h267 KNTKY PEETY DARTR MUSIQ CLAVN"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-8R/h267 BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-8R/h267 BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-8R/h267 BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
+                    },
+                    "SKUBA": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-8R/h267 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA"
+                    },
+                    "RIIGG": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-8R/h267 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                    },
+                    "STRYA": {
+                        "cleared_altitude": 4000,
+                        "sid": "STRYA8",
+                        "waypoints": "KIAH-8R/h267 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                    },
+                    "STYCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "STYCK8",
+                        "waypoints": "KIAH-8R/h267 BBYSE SPICR WILLIS STYCK"
+                    },
+                    "MAJKK": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-8R/h267 WYLSN MONNT KLJOY MAJKK"
+                    },
+                    "GIFFA": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-8R/h267 WYLSN MONNT BUMCO GIFFA"
+                    }
                 },
                 "27": {
-
+                    "CRIED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BLTWY7",
+                        "waypoints": "KIAH-9/h267 DREMR LITLD BLTWY CRIED"
+                    },
+                    "ZUUUU": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-9/h267 SHAAK BNDTO CUZZZ/a13000+ ZUUUU"
+                    },
+                    "BOCCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-9/h267 SHAAK BNDTO FFOAM/a13000+ BOCCK"
+                    },
+                    "WEEED": {
+                        "cleared_altitude": 4000,
+                        "sid": "BNDTO5",
+                        "waypoints": "KIAH-9/h267 SHAAK BNDTO BAAKE/a13000- WEEED"
+                    },
+                    "VUH": {
+                        "cleared_altitude": 4000,
+                        "sid": "FLYZA5",
+                        "waypoints": "KIAH-9/h267 BOTLL/a5000- FLYZA/a7000+ PPALE/a11000+ VUH"
+                    },
+                    "HOODO": {
+                        "cleared_altitude": 4000,
+                        "sid": "HOODO7",
+                        "waypoints": "KIAH-9/h267 VUH HOODO"
+                    },
+                    "WWELL": {
+                        "cleared_altitude": 4000,
+                        "sid": "INDIE8",
+                        "waypoints": "KIAH-9/h267 RENNK COLET SUSHI WWELL"
+                    },
+                    "CLAVN": {
+                        "cleared_altitude": 4000,
+                        "sid": "LURIC8",
+                        "waypoints": "KIAH-9/h267 KNTKY PEETY DARTR MUSIQ CLAVN"
+                    },
+                    "HOURN": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-9/h267 BOTLL/a5000- MMUGS MMALT/a10000+ HOURN"
+                    },
+                    "JAAYE": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-9/h267 BOTLL/a5000- MMUGS HHOPS/a11000+ JAAYE"
+                    },
+                    "YOKEM": {
+                        "cleared_altitude": 4000,
+                        "sid": "MMUGS4",
+                        "waypoints": "KIAH-9/h267 BOTLL/a5000- MMUGS GRAYN/a11000+ YOKEM"
+                    },
+                    "SKUBA": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-9/h267 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ SKUBA"
+                    },
+                    "RIIGG": {
+                        "cleared_altitude": 4000,
+                        "sid": "RITAA7",
+                        "waypoints": "KIAH-9/h267 BOTLL/a5000- FLYZA/a7000+ WINEO/a9000+ RITAA/a10000+ RIIGG"
+                    },
+                    "STRYA": {
+                        "cleared_altitude": 4000,
+                        "sid": "STRYA8",
+                        "waypoints": "KIAH-9/h267 KNTKY PEETY DARTR MUSIQ CLAVN STRYA"
+                    },
+                    "STYCK": {
+                        "cleared_altitude": 4000,
+                        "sid": "STYCK8",
+                        "waypoints": "KIAH-9/h267 BBYSE SPICR WILLIS STYCK"
+                    },
+                    "MAJKK": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-9/h267 WYLSN MONNT KLJOY MAJKK"
+                    },
+                    "GIFFA": {
+                        "cleared_altitude": 4000,
+                        "sid": "WYLSN8",
+                        "waypoints": "KIAH-9/h267 WYLSN MONNT BUMCO GIFFA"
+                    }
                 }
             },
             "exit_categories": [
