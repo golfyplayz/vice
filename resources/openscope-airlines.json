@@ -47605,6 +47605,84 @@
         ]
       ]
     }
+  },
+{
+    "icao": "jre",
+    "name": "FlyExclusive",
+    "callsign": {
+      "name": "JetShare",
+      "callsignFormats": [
+        "###"
+      ]
+    },
+    "fleets": {
+      "default": [
+        [
+          "C750",
+          2
+        ]
+      ] 
+    }
+  },
+{
+    "icao": "jtl",
+    "name": "Jet Linx Aviation",
+    "callsign": {
+      "name": "JetLinx",
+      "callsignFormats": [
+        "###"
+      ]
+    },
+    "fleets": {
+      "default": [
+        [
+          "LJ60",
+          2
+        ],
+        [
+          "BE40",
+          2
+        ],
+        [
+          "LJ45",
+          2
+        ],
+        [
+          "CL60",
+          2
+        ],
+        [
+          "GALX",
+          2
+        ]
+      ] 
+    }
+  },
+{
+    "icao": "kii",
+    "name": "Kalitta Charters II",
+    "callsign": {
+      "name": "Dragster",
+      "callsignFormats": [
+        "####"
+      ]
+    },
+    "fleets": {
+      "default": [
+        [
+          "B733",
+          3
+        ],
+        [
+          "B744",
+          8
+        ],
+        [
+          "B738",
+          3
+        ]
+      ] 
+    }
   }
     ]
 }
