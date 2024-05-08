@@ -64,246 +64,246 @@
                   "DSM": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 DSM"
+                    "waypoints": "_OMA_32R/h140 DSM"
                   },
                   "FOD": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 FOD"
+                    "waypoints": "_OMA_32R/h140 FOD"
                   },
                   "JALAP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 JALAP"
+                    "waypoints": "_OMA_32R/h140 JALAP"
                   },
                   "LMN": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 LMN"
+                    "waypoints": "_OMA_32R/h140 LMN"
                   },
                   "LNK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 LNK"
+                    "waypoints": "_OMA_32R/h180 LNK"
                   },
                   "OBH": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 OBH"
+                    "waypoints": "_OMA_32R/h180 OBH"
                   },
                   "OFK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 OFK"
+                    "waypoints": "_OMA_32R/h180 OFK"
                   },
                   "ONL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 ONL"
+                    "waypoints": "_OMA_32R/h180 ONL"
                   },
                   "PWE": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 PWE"
+                    "waypoints": "_OMA_32R/h180 PWE"
                   },
                   "ROKKK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 ROKKK"
+                    "waypoints": "_OMA_32R/h140 ROKKK"
                   },
                   "STJ": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 STJ"
+                    "waypoints": "_OMA_32R/h140 STJ"
                   },
                   "MCI": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 MCI"
+                    "waypoints": "_OMA_32R/h140 MCI"
                   },
                   "OGECA": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 OGECA"
+                    "waypoints": "_OMA_32R/h140 OGECA"
                   },
                   "KIDER": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 KIDER"
+                    "waypoints": "_OMA_32R/h140 KIDER"
                   },
                   "STL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 STL"
+                    "waypoints": "_OMA_32R/h140 STL"
                   },
                   "EMP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 EMP"
+                    "waypoints": "_OMA_32R/h180 EMP"
                   }
                 },
                 "14R": {
                   "DSM": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 DSM"
+                    "waypoints": "_OMA_32L/h140 DSM"
                   },
                   "FOD": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 FOD"
+                    "waypoints": "_OMA_32L/h140 FOD"
                   },
                   "JALAP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 JALAP"
+                    "waypoints": "_OMA_32L/h140 JALAP"
                   },
                   "LMN": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 LMN"
+                    "waypoints": "_OMA_32L/h140 LMN"
                   },
                   "LNK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 LNK"
+                    "waypoints": "_OMA_32L/h180 LNK"
                   },
                   "OBH": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 OBH"
+                    "waypoints": "_OMA_32L/h180 OBH"
                   },
                   "OFK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 OFK"
+                    "waypoints": "_OMA_32L/h180 OFK"
                   },
                   "ONL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 ONL"
+                    "waypoints": "_OMA_32L/h180 ONL"
                   },
                   "PWE": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 PWE"
+                    "waypoints": "_OMA_32L/h180 PWE"
                   },
                   "ROKKK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 ROKKK"
+                    "waypoints": "_OMA_32L/h140 ROKKK"
                   },
                   "STJ": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 STJ"
+                    "waypoints": "_OMA_32L/h140 STJ"
                   },
                   "MCI": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 MCI"
+                    "waypoints": "_OMA_32L/h140 MCI"
                   },
                   "OGECA": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 OGECA"
+                    "waypoints": "_OMA_32L/h140 OGECA"
                   },
                   "KIDER": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 KIDER"
+                    "waypoints": "_OMA_32L/h140 KIDER"
                   },
                   "STL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 STL"
+                    "waypoints": "_OMA_32L/h140 STL"
                   },
                   "EMP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 EMP"
+                    "waypoints": "_OMA_32L/h180 EMP"
                   }
                 },
                 "18": {
                   "DSM": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 DSM"
+                    "waypoints": "_OMA_36/h140 DSM"
                   },
                   "FOD": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 FOD"
+                    "waypoints": "_OMA_36/h140 FOD"
                   },
                   "JALAP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 JALAP"
+                    "waypoints": "_OMA_36/h140 JALAP"
                   },
                   "LMN": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 LMN"
+                    "waypoints": "_OMA_36/h140 LMN"
                   },
                   "LNK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 LNK"
+                    "waypoints": "_OMA_36/h180 LNK"
                   },
                   "OBH": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 OBH"
+                    "waypoints": "_OMA_36/h180 OBH"
                   },
                   "OFK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 OFK"
+                    "waypoints": "_OMA_36/h180 OFK"
                   },
                   "ONL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 ONL"
+                    "waypoints": "_OMA_36/h180 ONL"
                   },
                   "PWE": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 PWE"
+                    "waypoints": "_OMA_36/h180 PWE"
                   },
                   "ROKKK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 ROKKK"
+                    "waypoints": "_OMA_36/h140 ROKKK"
                   },
                   "STJ": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 STJ"
+                    "waypoints": "_OMA_36/h140 STJ"
                   },
                   "MCI": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 MCI"
+                    "waypoints": "_OMA_36/h140 MCI"
                   },
                   "OGECA": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 OGECA"
+                    "waypoints": "_OMA_36/h140 OGECA"
                   },
                   "KIDER": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 KIDER"
+                    "waypoints": "_OMA_36/h140 KIDER"
                   },
                   "STL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h140 STL"
+                    "waypoints": "_OMA_36/h140 STL"
                   },
                   "EMP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h180 EMP"
+                    "waypoints": "_OMA_36/h180 EMP"
                   }
                 },
                 "32L": {
@@ -392,164 +392,164 @@
                   "DSM": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 DSM"
+                    "waypoints": "_OMA_14L/h360 DSM"
                   },
                   "FOD": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 FOD"
+                    "waypoints": "_OMA_14L/h360 FOD"
                   },
                   "JALAP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 JALAP"
+                    "waypoints": "_OMA_14L/h360 JALAP"
                   },
                   "LMN": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 LMN"
+                    "waypoints": "_OMA_14L/h360 LMN"
                   },
                   "LNK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 LNK"
+                    "waypoints": "_OMA_14L/h320 LNK"
                   },
                   "OBH": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 OBH"
+                    "waypoints": "_OMA_14L/h320 OBH"
                   },
                   "OFK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 OFK"
+                    "waypoints": "_OMA_14L/h320 OFK"
                   },
                   "ONL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 ONL"
+                    "waypoints": "_OMA_14L/h320 ONL"
                   },
                   "PWE": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 PWE"
+                    "waypoints": "_OMA_14L/h320 PWE"
                   },
                   "ROKKK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 ROKKK"
+                    "waypoints": "_OMA_14L/h360 ROKKK"
                   },
                   "STJ": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 STJ"
+                    "waypoints": "_OMA_14L/h360 STJ"
                   },
                   "MCI": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 MCI"
+                    "waypoints": "_OMA_14L/h360 MCI"
                   },
                   "OGECA": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 OGECA"
+                    "waypoints": "_OMA_14L/h360 OGECA"
                   },
                   "KIDER": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 KIDER"
+                    "waypoints": "_OMA_14L/h360 KIDER"
                   },
                   "STL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 STL"
+                    "waypoints": "_OMA_14L/h360 STL"
                   },
                   "EMP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 EMP"
+                    "waypoints": "_OMA_14L/h320 EMP"
                   }
                 },
                 "36": {
                   "DSM": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 DSM"
+                    "waypoints": "_OMA_18/h360 DSM"
                   },
                   "FOD": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 FOD"
+                    "waypoints": "_OMA_18/h360 FOD"
                   },
                   "JALAP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 JALAP"
+                    "waypoints": "_OMA_18/h360 JALAP"
                   },
                   "LMN": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 LMN"
+                    "waypoints": "_OMA_18/h360 LMN"
                   },
                   "LNK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 LNK"
+                    "waypoints": "_OMA_18/h320 LNK"
                   },
                   "OBH": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 OBH"
+                    "waypoints": "_OMA_18/h320 OBH"
                   },
                   "OFK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 OFK"
+                    "waypoints": "_OMA_18/h320 OFK"
                   },
                   "ONL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 ONL"
+                    "waypoints": "_OMA_18/h320 ONL"
                   },
                   "PWE": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 PWE"
+                    "waypoints": "_OMA_18/h320 PWE"
                   },
                   "ROKKK": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 ROKKK"
+                    "waypoints": "_OMA_18/h360 ROKKK"
                   },
                   "STJ": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 STJ"
+                    "waypoints": "_OMA_18/h360 STJ"
                   },
                   "MCI": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 MCI"
+                    "waypoints": "_OMA_18/h360 MCI"
                   },
                   "OGECA": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 OGECA"
+                    "waypoints": "_OMA_18/h360 OGECA"
                   },
                   "KIDER": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 KIDER"
+                    "waypoints": "_OMA_18/h360 KIDER"
                   },
                   "STL": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h360 STL"
+                    "waypoints": "_OMA_18/h360 STL"
                   },
                   "EMP": {
                     "cleared_altitude": 5000,
                     "sid": "OMA1",
-                    "waypoints": "_OMA_14R/h320 EMP"
+                    "waypoints": "_OMA_18/h320 EMP"
                   }
 				}
 			  },
@@ -858,7 +858,7 @@
 				  "36": "CANIO PTERZ/a6000+/s220 BRIKK/a5000+/s210"
                 }
               },
-              "waypoints": "MZEEE BRKSR/a11000+/ho AANDY CANIO",
+              "waypoints": "MZEEE BRKSR/a11000+ N041.59.18.760,W096.08.36.247/ho AANDY CANIO",
               "expect_approach": "32L"
           }
         ],
@@ -880,7 +880,7 @@
             "initial_controller": "MSP_27_CTR",
             "initial_speed": 280,
             "star": "LANTK2.DABOY",
-			"waypoints": "DABOY/ho LANTK/h250",
+			"waypoints": "DABOY N041.37.50.173,W094.55.20.947/ho LANTK/h250",
             "expect_approach": "32L"
           }
         ],
@@ -934,7 +934,7 @@
             "initial_controller": "MSP_27_CTR",
             "initial_speed": 280,
             "star": "LANTK2.DSM",
-			"waypoints": "DSM/ho LANTK/h250",
+			"waypoints": "DSM N041.29.32.218,W094.44.43.493/ho LANTK/h250",
             "expect_approach": "32L"
           }
         ],
@@ -1002,7 +1002,7 @@
 				  "36": "SWAAB/flyover OVR"
                 }
               },
-              "waypoints": "LMN/ho MARWI SWAAB/flyover",
+              "waypoints": "LMN N040.43.31.560,W094.45.27.438/ho MARWI SWAAB/flyover",
               "expect_approach": "32L"
           }
         ],
@@ -1050,7 +1050,7 @@
 				  "36": "SWAAB/flyover OVR"
                 }
               },
-              "waypoints": "STJ/ho MARWI SWAAB/flyover",
+              "waypoints": "N040.14.32.245,W094.58.39.744 N040.38.46.918,W095.03.30.031/ho MARWI SWAAB/flyover",
               "expect_approach": "32L"
           }
         ],
@@ -1102,7 +1102,7 @@
 				  "36": "MOONR BAARK/flyover/a4000/h030"
                 }
               },
-              "waypoints": "HTHWY/ho HILRS/a11000+ TIMMO MOONR",
+              "waypoints": "HTHWY N040.17.48.365,W096.11.30.188/ho HILRS/a11000+ TIMMO MOONR",
               "expect_approach": "32L"
           }
         ],
@@ -1130,7 +1130,7 @@
 				  "36": "BOYSS/h060"
                   }
               },
-              "waypoints": "ONL OLU/ho HOWRY BOYSS",
+              "waypoints": "N041.40.51.420,W097.38.49.431 OLU N041.24.31.467,W097.06.23.312/ho HOWRY BOYSS",
               "expect_approach": "32L"
           }
         ],
@@ -1206,7 +1206,7 @@
 				  "36": "BOYSS/h060"
                   }
               },
-              "waypoints": "GRI/ho HOWRY BOYSS",
+              "waypoints": "N041.14.32.561,W097.20.22.146 N041.19.00.559,W097.02.42.377/ho HOWRY BOYSS",
               "expect_approach": "32L"
           }
         ]
