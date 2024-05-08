@@ -1748,11 +1748,11 @@
         "center": "41.143010, -95.903745",
         "airspace_awareness": [
           {
-              "fixes": ["ALL"],
+              "fixes": ["EMP", "LNK", "OBH", "OFK", "ONL", "PWE"],
               "receiving_controller": "MSP_26_CTR"
           },
           {
-              "fixes": ["ALL"],
+              "fixes": ["DSM", "FOD", "JALAP", "KIDER", "LMN", "MCI", "OGECA", "ROKKK", "STJ", "STL"],
               "receiving_controller": "MSP_27_CTR"
           }
       ],
