@@ -880,7 +880,7 @@
             "initial_controller": "MSP_27_CTR",
             "initial_speed": 280,
             "star": "LANTK2.DABOY",
-			"waypoints": "DABOY N041.37.50.173,W094.55.20.947/ho LANTK/h250",
+			"waypoints": "N041.41.42.919,W094.48.25.636 N041.37.50.173,W094.55.20.947/ho LANTK/h250",
             "expect_approach": "32L"
           }
         ],
@@ -934,7 +934,7 @@
             "initial_controller": "MSP_27_CTR",
             "initial_speed": 280,
             "star": "LANTK2.DSM",
-			"waypoints": "DSM N041.29.32.218,W094.44.43.493/ho LANTK/h250",
+			      "waypoints": "N041.29.18.897,W094.39.37.963 N041.29.32.218,W094.44.43.493/ho LANTK/h250",
             "expect_approach": "32L"
           }
         ],
@@ -1130,7 +1130,7 @@
 				  "36": "BOYSS/h060"
                   }
               },
-              "waypoints": "N041.40.51.420,W097.38.49.431 OLU N041.24.31.467,W097.06.23.312/ho HOWRY BOYSS",
+              "waypoints": "OLU N041.24.31.467,W097.06.23.312/ho HOWRY BOYSS",
               "expect_approach": "32L"
           }
         ],
