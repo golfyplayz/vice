@@ -2854,8 +2854,8 @@
             }
           ],
           "wind": {
-            "direction": 120,
-            "speed": 7
+            "direction": 340,
+            "speed": 6
           }
         },
         "OMA SOUTH": {
@@ -3078,7 +3078,7 @@
           ],
           "wind": {
             "direction": 140,
-            "speed": 7
+            "speed": 9
           }
         },
         "LNK NORTH": {
@@ -3202,8 +3202,8 @@
             }
           ],
           "wind": {
-            "direction": 120,
-            "speed": 7
+            "direction": 360,
+            "speed": 6
           }
         },
         "LNK SOUTH": {
@@ -3327,7 +3327,7 @@
             }
           ],
           "wind": {
-            "direction": 120,
+            "direction": 160,
             "speed": 7
           }
         },
@@ -3747,8 +3747,8 @@
 			}
           ],
           "wind": {
-            "direction": 120,
-            "speed": 7
+            "direction": 340,
+            "speed": 12
           }
         },
         "R90 SOUTH": {
@@ -4102,73 +4102,73 @@
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "LMN"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "DSM"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "FOD"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "OFK"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "OBH"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "GRI"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "PWE"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "ONL"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "SUX"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "TKO"
             },
             {
               "airport": "KOFF",
               "rate": 1,
-              "runway": "31",
+              "runway": "13",
               "category": "HSI"
 			}
           ],
           "wind": {
-            "direction": 120,
-            "speed": 7
+            "direction": 150,
+            "speed": 9
           }
         },
         "OFF NORTH": {
@@ -4301,8 +4301,8 @@
 			}
           ],
           "wind": {
-            "direction": 120,
-            "speed": 7
+            "direction": 310,
+            "speed": 8
           }
         },
         "OFF SOUTH": {
@@ -4436,7 +4436,7 @@
           ],
           "wind": {
             "direction": 120,
-            "speed": 7
+            "speed": 10
           }
         }
       },
