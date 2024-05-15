@@ -2690,6 +2690,7 @@
           "controllers": [
             "MSP_26_CTR",
             "MSP_27_CTR",
+            "LNK_L_APP",
             "OMA_TWR",
             "OFF_TWR",
             "LNK_TWR"
@@ -2913,6 +2914,7 @@
           "controllers": [
             "MSP_26_CTR",
             "MSP_27_CTR",
+            "LNK_L_APP",
             "OMA_TWR",
             "OFF_TWR",
             "LNK_TWR"
@@ -3108,20 +3110,17 @@
               "KLNK": 2
             }
           },
-          "solo_controller": "OMA_W_APP",
+          "solo_controller": "LNK_L_APP",
           "multi_controllers": {
             "default": {
-              "OMA_W_APP": {"primary": true},
-              "OMA_X_APP": {"backup": "OMA_W_APP", "arrivals": ["LNK.KORD"]},
-              "OMA_V_APP": {"backup": "OMA_X_APP"},
-              "OMA_O_APP": {"backup": "OMA_W_APP"},
-              "LNK_L_APP": {"backup": "OMA_W_APP", "arrivals": ["LNK.KDEN", "LNK.KIAH", "LNK.KAIZ", "LNK.KSDL", "LNK.KJLN"], "departures": ["KLNK"]},
+              "LNK_L_APP": {"primary": true, "arrivals": ["LNK.KDEN", "LNK.KIAH", "LNK.KAIZ", "LNK.KSDL", "LNK.KJLN", "LNK.KORD"], "departures": ["KLNK"]},
               "LNK_F_APP": {"backup": "LNK_L_APP"}
             }
           },
           "controllers": [
             "MSP_26_CTR",
             "MSP_27_CTR",
+            "OMA_W_APP",
             "OMA_TWR",
             "OFF_TWR",
             "LNK_TWR"
@@ -3233,20 +3232,17 @@
               "KLNK": 2
             }
           },
-          "solo_controller": "OMA_W_APP",
+          "solo_controller": "LNK_L_APP",
           "multi_controllers": {
             "default": {
-              "OMA_W_APP": {"primary": true},
-              "OMA_X_APP": {"backup": "OMA_W_APP", "arrivals": ["LNK.KORD"]},
-              "OMA_V_APP": {"backup": "OMA_X_APP"},
-              "OMA_O_APP": {"backup": "OMA_W_APP"},
-              "LNK_L_APP": {"backup": "OMA_W_APP", "arrivals": ["LNK.KDEN", "LNK.KIAH", "LNK.KAIZ", "LNK.KSDL", "LNK.KJLN"], "departures": ["KLNK"]},
+              "LNK_L_APP": {"primary": true, "arrivals": ["LNK.KDEN", "LNK.KIAH", "LNK.KAIZ", "LNK.KSDL", "LNK.KJLN", "LNK.KORD"], "departures": ["KLNK"]},
               "LNK_F_APP": {"backup": "LNK_L_APP"}
             }
           },
           "controllers": [
             "MSP_26_CTR",
             "MSP_27_CTR",
+            "OMA_W_APP",
             "OMA_TWR",
             "OFF_TWR",
             "LNK_TWR"
@@ -4216,17 +4212,14 @@
           "solo_controller": "OMA_W_APP",
           "multi_controllers": {
             "default": {
-              "OMA_W_APP": {"primary": true, "arrivals": ["OFF.OFK", "OFF.OBH", "OFF.GRI", "OFF.PWE", "OFF.ONL", "OFF.TKO", "OFF.HSI"]},
-              "OMA_X_APP": {"backup": "OMA_W_APP", "arrivals": ["OFF.LMN", "OFF.DSM", "OFF.FOD", "OFF.SUX"]},
-              "OMA_V_APP": {"backup": "OMA_X_APP"},
-              "OMA_O_APP": {"backup": "OMA_W_APP", "departures": ["KOFF"]},
-              "LNK_L_APP": {"backup": "OMA_W_APP"},
-              "LNK_F_APP": {"backup": "LNK_L_APP"}
+              "OMA_O_APP": {"primary": true, "arrivals": ["OFF.OFK", "OFF.OBH", "OFF.GRI", "OFF.PWE", "OFF.ONL", "OFF.TKO", "OFF.HSI", "OFF.LMN", "OFF.DSM", "OFF.FOD", "OFF.SUX"], "departures": ["KOFF"]}
             }
           },
           "controllers": [
             "MSP_26_CTR",
             "MSP_27_CTR",
+            "OMA_W_APP",
+            "LNK_L_APP",
             "OMA_TWR",
             "OFF_TWR",
             "LNK_TWR"
@@ -4350,17 +4343,14 @@
           "solo_controller": "OMA_W_APP",
           "multi_controllers": {
             "default": {
-              "OMA_W_APP": {"primary": true, "arrivals": ["OFF.OFK", "OFF.OBH", "OFF.GRI", "OFF.PWE", "OFF.ONL", "OFF.TKO", "OFF.HSI"]},
-              "OMA_X_APP": {"backup": "OMA_W_APP", "arrivals": ["OFF.LMN", "OFF.DSM", "OFF.FOD", "OFF.SUX"]},
-              "OMA_V_APP": {"backup": "OMA_X_APP"},
-              "OMA_O_APP": {"backup": "OMA_W_APP", "departures": ["KOFF"]},
-              "LNK_L_APP": {"backup": "OMA_W_APP"},
-              "LNK_F_APP": {"backup": "LNK_L_APP"}
+              "OMA_O_APP": {"primary": true, "arrivals": ["OFF.OFK", "OFF.OBH", "OFF.GRI", "OFF.PWE", "OFF.ONL", "OFF.TKO", "OFF.HSI", "OFF.LMN", "OFF.DSM", "OFF.FOD", "OFF.SUX"], "departures": ["KOFF"]}
             }
           },
           "controllers": [
             "MSP_26_CTR",
             "MSP_27_CTR",
+            "OMA_W_APP",
+            "LNK_L_APP",
             "OMA_TWR",
             "OFF_TWR",
             "LNK_TWR"
